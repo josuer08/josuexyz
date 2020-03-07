@@ -1,3 +1,7 @@
 $primary: hsl(72, 100%, 50%);
 @import '../vendors/bulma/bulma.sass';
 @import '../vendors/font-awesome/css/font-awesome.min.css';
+.nomargin {
+  margin: 0;
+  padding: 0;
+}
