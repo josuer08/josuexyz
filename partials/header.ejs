@@ -1,12 +1,7 @@
 <nav class="navbar">
        <div class="navbar-brand">
-           <a class="navbar-item" href="/">
-               My nice app
-           </a>
-           <a class="navbar-item is-hidden-desktop" href="https://github.com/RuinSain" target="_blank">
-     <span class="icon" style="color: #333;">
-       <i class="fa fa-github"></i>
-     </span>
+           <a class="navbar-item title" href="/">
+               <%= title %>
            </a>
 
            <div class="navbar-burger burger" onclick="document.querySelector('.navbar-menu').classList.toggle('is-active');">
@@ -18,29 +13,28 @@
 
        <div  class="navbar-menu">
            <div class="navbar-start">
-               <a href="/archive" class="nav-item is-tab">All Articles</a>
 
                <div class="navbar-item has-dropdown is-hoverable">
-                   <a class="navbar-link " href="http://bulma.io/blog/">
-                       Blog
+                   <a class="navbar-link " href="https://www.linkedin.com/in/josue-rodriguez-170103199/" target="_blank">
+                       Recent Projects
                    </a>
                    <div  class="navbar-dropdown " data-style="width: 18rem;">
 
-                       <a class="navbar-item" href="/2017/03/10/new-field-element/">
+                       <a class="navbar-item" href="https://github.com/josuer08/VSoRC" target="_blank">
                            <div class="navbar-content">
                                <p>
-                                   <small class="has-text-info">10 Mar 2017</small>
+                                   <small class="has-text-info">VSoRC</small>
                                </p>
-                               <p>New field element (for better controls)</p>
+                               <p>Virtual Software Defined Network o RaspberryPi/Linux Cluster</p>
                            </div>
                        </a>
 
-                       <a class="navbar-item" href="/2016/04/11/metro-ui-css-grid-with-bulma-tiles/">
+                       <a class="navbar-item" href="https://github.com/josuer08/vsorcdistro" target="_blank">
                            <div class="navbar-content">
                                <p>
-                                   <small class="has-text-info">11 Apr 2016</small>
+                                   <small class="has-text-info">VSoRCdistro</small>
                                </p>
-                               <p>Metro UI CSS grid with Bulma tiles</p>
+                               <p>Modified distribution for VSORC</p>
                            </div>
                        </a>
 
@@ -50,16 +44,16 @@
                                <div class="level is-mobile">
                                    <div class="level-left">
                                        <div class="level-item">
-                                           <strong>Stay up to date!</strong>
+                                           <strong>More Projects</strong>
                                        </div>
                                    </div>
                                    <div class="level-right">
                                        <div class="level-item">
-                                           <a class="button is-rss is-small" href="http://bulma.io/atom.xml">
+                                           <a class="button is-rss is-small" href="http://www.github.com/josuer08" target="_blank">
                      <span class="icon is-small">
-                       <i class="fa fa-rss"></i>
+                       <i class="fa fa-github"></i>
                      </span>
-                                               <span>Subscribe</span>
+                                               <span>Star me!</span>
                                            </a>
                                        </div>
                                    </div>
@@ -71,20 +65,22 @@
            </div>
 
            <div class="navbar-end">
-               <a class="navbar-item" href="/register">
+               <a class="navbar-item" href="https://www.linkedin.com/in/josue-rodriguez-170103199/" target="_blank">
+                 <span class="icon is-large">
+                   <i class="fa fa-github"></i>
+                 </span>
                </a>
-               <a class="navbar-item" href="/login">
-                   Login
+               <a class="navbar-item" href="https://www.instagram.com/josuer008/" target="_blank">
+                 <span class="icon is-large">
+                   <i class="fa fa-instagram"></i>
+                 </span>
                </a>
 
                    <div class="navbar-item has-dropdown is-hoverable">
-                       <a class="navbar-link">User</a>
+                       <a class="navbar-link">More links</a>
                        <div class="navbar-dropdown">
-                           <a href="#" class="navbar-item">My Profile</a>
-                           <a href="#" class="navbar-item"
-
-              ">Logout</a>
-                           <form id="logout-form" action="" method="#" style="display: none;"></form>
+                           <a href="#" class="navbar-item">Contact</a>
+                           <a href="#" class="navbar-item">Function1</a>
                        </div>
                    </div>
            </div>
